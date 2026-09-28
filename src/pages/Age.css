@@ -1,0 +1,41 @@
+.age-card h1 {
+  margin: 0;
+  color: rgb(47, 57, 79);
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.age-card::after {
+  content: "Track your journey";
+  display: flex;
+  color: rgb(100, 116, 139);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.age-container {
+  width: 750px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.age-box {
+  background: rgb(135, 235, 222);
+  padding: 15px 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.age-box h2 {
+  margin: 0;
+  color: rgb(79, 70, 229);
+  font-size: 30px;
+}
+.age-page h3{
+  color:solid black;
+}
+.age-box p {
+  margin: 8px 0 0;
+  color: rgb(100, 139, 135);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

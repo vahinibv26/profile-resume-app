@@ -1,0 +1,36 @@
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-content {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-content h1 {
+  margin: 0;
+  font-size: 60px;
+  color: #334155;
+}
+.home-content p {
+  font-size: 28px;
+  color:skyblue;
+}
+.home-content button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color:grey;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+   transition: 0.2s;
+}
+.home-content button:hover {
+  background-color:green;
+  
+}

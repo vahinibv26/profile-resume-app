@@ -1,0 +1,15 @@
+.page-navigation {
+  display: flex;
+  gap: 15px;
+  margin-top: 400px;
+  padding-left: 25px;
+}
+.page-navigation button {
+  padding: 6px 12px;
+  cursor: pointer;
+  alignment-baseline: bottom;
+}
+.page-navigation button:hover {
+  background-color: rgb(183, 135, 235);
+  color: white;
+}
